@@ -1,5 +1,5 @@
 ---
-- name:  configue_ops445.yml
+- name:  config_ops445.yml
   hosts: vmlab
   user: student
   become: yes
