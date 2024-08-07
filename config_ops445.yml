@@ -1,8 +1,10 @@
 ---
+
 - name:  config_ops445.yml
   hosts: vmlab
   user: student
   become: yes
+  vars:
    
   tasks:
     - name: update Apache
