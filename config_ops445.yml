@@ -4,7 +4,6 @@
   hosts: vmlab
   user: student
   become: yes
-  vars:
    
   tasks:
     - name: update Apache
